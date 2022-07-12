@@ -6,6 +6,11 @@
     --secondary-font: 'Roboto', sans-serif;
 }
 
+body{
+    font-family: var(--secondary-font);
+    color:var(--color-for-body);
+
+}
 .list {
     list-style: none;
 }
@@ -33,16 +38,16 @@ color: #000000;
 }
 
 .menu-link {
-font-family: var(--secondary-font);
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--color-for-body);
+
 }
 
 .header-tel-mail {
-font-family: var(--secondary-font);
+
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
@@ -57,7 +62,7 @@ color: var(--accent-color);
 }
 
 .main-name {
-font-family: var(--secondary-font);
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -72,7 +77,7 @@ background-color: var(--background-color-dark);
 }
 
 .button-name {
-font-family: var(--secondary-font);
+
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -88,17 +93,17 @@ cursor: pointer;
 }
 
 .main-text-up {
-font-family: var(--secondary-font);
+
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--color-for-body);
+
 }
 
 .main-text-down {
-font-family: var(--secondary-font);
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -107,27 +112,27 @@ color: #757575;
 }
 
 .mid-banner {
-font-family: var(--secondary-font);
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--color-for-body);    
+   
 }
 
 .name {
-font-family: var(--secondary-font);
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--color-for-body);
+
 }
 
 .profession {
-font-family: var(--secondary-font);
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
@@ -151,14 +156,14 @@ cursor: pointer;
 }
 
 .modal-btn {
-font-family: var(--secondary-font);
+
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--color-for-body);
+
 }
 
 .modal-btn:hover,
@@ -168,16 +173,16 @@ color: #FFFFFF;
 }
 
 .mid-img-header {
-font-family: var(--secondary-font);
+
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
-color: var(--color-for-body);
+
 }
 
 .mid-img-footer {
-font-family: var(--secondary-font);
+
 font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
@@ -204,7 +209,7 @@ color: #FFFFFF;
 }
 
 .footer-maps{
-font-family: var(--secondary-font);
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -213,7 +218,7 @@ color: #FFFFFF;
 }
 
 .footer-tel-mail {
-font-family: var(--secondary-font);
+
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
