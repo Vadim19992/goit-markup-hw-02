@@ -1,0 +1,226 @@
+:root{
+    --accent-color: #2196F3;
+    --color-for-body: #212121;
+    --background-color-dark: #2F303A;
+    --primary-font: 'Raleway', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-body-left {
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.logo-body-right {
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #000000;
+}
+
+.menu-link {
+font-family: var(--secondary-font);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--color-for-body);
+}
+
+.header-tel-mail {
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+
+}
+.header-tel-mail:hover,
+.header-tel-mail:focus {
+color: var(--accent-color);
+}
+
+.main-name {
+font-family: var(--secondary-font);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main {
+background-color: var(--background-color-dark);
+}
+
+.button-name {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+}
+
+.main-text-up {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--color-for-body);
+}
+
+.main-text-down {
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.mid-banner {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-for-body);    
+}
+
+.name {
+font-family: var(--secondary-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-for-body);
+}
+
+.profession {
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.modal-btn {
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color);
+}
+
+.modal-btn {
+cursor: pointer;
+}
+
+.modal-btn {
+font-family: var(--secondary-font);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--color-for-body);
+}
+
+.modal-btn:hover,
+.menu-link:focus {
+background-color: var(--accent-color);
+color: #FFFFFF;
+}
+
+.mid-img-header {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--color-for-body);
+}
+
+.mid-img-footer {
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.logo-footer-left {
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+} 
+
+.logo-footer-right {
+font-family: var(--primary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.footer-maps{
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;  
+color: #FFFFFF;
+}
+
+.footer-tel-mail {
+font-family: var(--secondary-font);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+.footer {
+    background-color: var(--background-color-dark);
+}
